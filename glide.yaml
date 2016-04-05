@@ -1,0 +1,9 @@
+package: github.com/nimi/translate
+import:
+- package: github.com/codegangsta/cli
+- package: github.com/eladg/google-api-go-client
+  subpackages:
+  - translate/v2
+- package: google.golang.org/api
+  subpackages:
+  - googleapi/transport
